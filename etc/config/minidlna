@@ -1,0 +1,15 @@
+
+config minidlna 'config'
+	option port '8200'
+	option log_dir '/var/log'
+	option notify_interval '900'
+	option serial '12345678'
+	option model_number '1'
+	option album_art_names 'Cover.jpg/cover.jpg/AlbumArtSmall.jpg/albumartsmall.jpg/AlbumArt.jpg/albumart.jpg/Album.jpg/album.jpg/Folder.jpg/folder.jpg/Thumb.jpg/thumb.jpg'
+	option friendly_name 'Deutsch lernen'
+	option root_container 'V'
+	list media_dir 'V,/mnt/sda1/videos'
+	option enabled '1'
+	option db_dir '/mnt/sda1/var/cache/minidlna'
+	option interface 'eth0,wlan0'
+
